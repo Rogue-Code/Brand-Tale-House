@@ -192,6 +192,7 @@
 	background-color: #E5E5E5;
 	height: 900px;
 	display: flex;
+	flex-direction: column;
 }
 
 #best-channels .container {
