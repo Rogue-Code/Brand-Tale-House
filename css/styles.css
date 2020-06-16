@@ -20,48 +20,55 @@
 	color: #000000;
 }
 
+@media only screen and (max-width: 768px) {
+	/*.navbar li {
+		align-items: center;
+	}*/
+}
+
 .navbar li:nth-child(4) {
 	color: white;
 }
 
 #hero {
-	/*margin-top: 200px;*/
-	height: 850px;
-	position: relative;
+	display: flex;
+	margin-top: 200px;
+	height: 645px;
+	/*position: relative;*/
 	top: 200px;
 	z-index: 10;
 }
 
-#hero h1 {
-	position: absolute;
-	left: 124px;
-	font-family: Roboto;
-	font-weight: 100;
-	font-size: 30px;
-	line-height: 35px;
-	color: #005A9E;
+#hero #left-content {
+	display: flex;
+}
+
+#hero #right-img {
+	display: flex;
 }
 
 #hero h2 {
-	position: absolute;
-	left: 124px;
-	top:36px;
-	font-size: 60px;
+	/*position: absolute;*/
+	/*display: flex;*/
+	/*left: 124px;*/
+	/*top:36px;*/
+	font-size: 50px;
 }
 
 #hero h3 {
-	position: absolute;
-	left: 124px;
-	top: 540px;
+	/*position: absolute;*/
+	/*left: 124px;*/
+	/*top: 540px;*/
+	margin-top: 400px;
 	font-size: 23px;
 }
 
 #hero img {
-	position: absolute;
-	top: 28px;
-	left: 500px;
+	/*position: absolute;*/
+	/*top: 28px;*/
+	/*left: 500px;*/
 	width:800px; 
-	height:875px;
+	height:620px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -69,21 +76,9 @@
 		height: 1100px;
 	}
 
-	#hero h2 {
-		left: 40px;
-		font-size: 3em;
+	#hero #right-img {
+		flex-direction: column;
 	}
-
-	#hero img {
-		top: 320px;
-		left: 0;
-	}
-
-	#hero h3 {
-		top: 230px;
-		left: 500px;
-	}
-
 }
 
 /********************************About Us*****************************************/
@@ -196,6 +191,7 @@
 #best-channels {
 	background-color: #E5E5E5;
 	height: 900px;
+	display: flex;
 }
 
 #best-channels .container {
