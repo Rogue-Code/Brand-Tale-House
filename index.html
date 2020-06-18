@@ -13,7 +13,7 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-	<nav id="nav"class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #E9F4FC;">
+	<nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #E9F4FC;">
   <!-- Navbar content -->
   <img class="navbar-brand ml-5" src="assets/bth-logo.png" height="50" width="30">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -256,7 +256,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $("#nav ul li a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -277,6 +277,14 @@ $(document).ready(function(){
       });
     } // End if
   });
+});
+</script>
+
+
+<!-- Script for adding href to the channels anchor tags -->
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#channel a').attr('target', '_blank');
 });
 </script>
 
