@@ -1,0 +1,17 @@
+/* here are two different ways to do this */
+//using jquery:
+$(document).ready(function(){
+  $('#link_other a').attr('target', '_blank');
+});
+
+// not using jquery
+window.onload = function(){
+  var anchors = document.getElementById('link_other').getElementsByTagName('a');
+  for (var i=0; i<anchors.length; i++){
+    anchors[i].setAttribute('target', '_blank');
+  }
+}
+
+=========for Page transitions========
+1.https://greensock.com/gsap/ (for animations)
+2.https://highway.js.org/ (for creating AJAX navigations)
