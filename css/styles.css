@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
-html {
+/*html {
 	scroll-behavior: smooth;
-}
+}*/
 
 * {
 	margin: 0;
@@ -11,6 +11,9 @@ html {
 	box-sizing: border-box;
 }
 
+nav img {
+	margin-left: 100px;
+}
 .navbar {
 	/*height: 150px;*/
 }
@@ -367,8 +370,8 @@ html {
 }
 
 #contactUs #left-col-2 img.bth-logo {
-	margin-top: 250px;
-	height: 150px;
+	margin-top: 230px;
+	height: 175px;
 }
 
 #contactUs #right-col-2 {
@@ -381,7 +384,7 @@ html {
 
 #contactUs #social-icons {
 	padding-left: 20px;
-	padding-top: 20px;
+	padding-top: 10px;
 	margin-bottom: 100px;
 }
 
