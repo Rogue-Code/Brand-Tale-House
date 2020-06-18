@@ -363,8 +363,8 @@ html {
 }
 
 #contactUs #left-col-2 img.bth-logo {
-	margin-top: 100px;
-	height: 200px;
+	margin-top: 250px;
+	height: 150px;
 }
 
 #contactUs #right-col-2 {
@@ -377,11 +377,12 @@ html {
 
 #contactUs #social-icons {
 	padding-left: 20px;
-	padding-top: 100px;
+	padding-top: 20px;
 	margin-bottom: 100px;
 }
 
 #contactUs #social-icons img {
+	height: 20px;
 	padding-right: 10px;
 	-webkit-transition: 0.6s ease-out;
     -moz-transition:  0.6s ease-out;
