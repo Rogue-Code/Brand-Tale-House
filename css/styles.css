@@ -25,6 +25,19 @@ nav img {
 	color: #000000;
 }
 
+.dropdown-item {
+	color: black;
+}
+
+a.dropdown-item.active,
+a.dropdown-item:active {
+	background-color: #00ACEE;	
+}
+
+/*a.dropdown-item:link {
+	background-color: pink;	
+}*/
+
 @media only screen and (max-width: 768px) {
 	/*.navbar li {
 		align-items: center;
@@ -150,9 +163,39 @@ nav img {
 		width: 100% !important;
 	}
 
-	#aboutUs h1 {
-		left: 200px;
+	#aboutUs .aboutUs-content {
+	position: absolute;
+	top: 160px;
+	left: 0px;
 	}
+
+	#aboutUs img {
+		display: none;
+	}
+
+	#aboutUs h1 {
+	font-size: 40px;
+	/*font-weight: 700;*/
+	padding-top: 150px;
+	color: #005A9E;
+}
+
+#aboutUs p {
+	/*position: absolute;*/
+	/*top: 200px;*/
+	/*left: 350px;*/
+	font-size: 1.2em;
+}
+
+#aboutUs #au-para1 {
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+#aboutUs #au-para2 {
+	/*top: 320px;*/
+	padding: 0px 220px;
+}
 }
 /***************************channel******************************/
 #channel {
@@ -219,6 +262,7 @@ nav img {
 	background-color: #E5E5E5;
 	height: 900px;
 	display: flex;
+	padding-top: 90px;
 	flex-direction: column;
 }
 
