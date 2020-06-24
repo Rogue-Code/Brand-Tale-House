@@ -137,8 +137,6 @@ a.dropdown-item:active {
 	margin-left: 15%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 /*#aboutUs img {
@@ -163,6 +161,23 @@ a.dropdown-item:active {
 	padding: 0px 160px;
 }
 
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.aboutUs-content {
+		padding-top: 130px;
+	}
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.aboutUs-content {
+		padding-top: 150px;
+		padding-left: 60px;
+	}
+
+}
+
+/* Mobile displays */
 @media only screen and (max-width: 768px) {
 	#aboutUs {
 		height: 650px;
