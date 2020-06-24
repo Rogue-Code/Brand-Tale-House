@@ -154,7 +154,7 @@ a.dropdown-item:active {
 }
 
 #aboutUs #au-para1 {
-	padding:10px 160px 0;
+	padding:10px 100px 0;
 }
 
 #aboutUs #au-para2 {
@@ -164,22 +164,22 @@ a.dropdown-item:active {
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 	.aboutUs-content {
-		padding-top: 130px;
+		padding-top: 0px;
 	}
 }
 
  /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 	.aboutUs-content {
-		padding-top: 150px;
-		padding-left: 60px;
+		padding-top: 0px;
+		padding-left: 30px;
 	}
 
 }
 
 @media (min-width: 1400px) {
 	.aboutUs-content {
-		padding-top: 130px;
+		padding-top: 70px;
 		padding-left: 100px;
 	}
 }
