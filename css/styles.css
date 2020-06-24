@@ -108,7 +108,7 @@ a.dropdown-item:active {
 /********************************About Us*****************************************/
 #aboutUs {
 	display: flex;
-	height: 885px;
+	height: 693px;
 	background-color: #D9D9D9;
 }
 
@@ -124,36 +124,24 @@ a.dropdown-item:active {
 }
 
 #aboutUs img {
-	height: 800px;
+	/*height: 800px;*/
 }
 
 #aboutUs h1 {
-	/*position: absolute;*/
-	/*top: 0px;*/
-	/*left: 600px;*/
-	/*position: absolute;*/
-	/*top: 20px;*/
-	/*margin-top: 120px;*/
-	font-size: 40px;
-	/*font-weight: 700;*/
-	padding-top: 150px;
+	font-size: 2em;
+	padding-top: 50px;
 	color: #005A9E;
 }
 
 #aboutUs p {
-	/*position: absolute;*/
-	/*top: 200px;*/
-	/*left: 350px;*/
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 #aboutUs #au-para1 {
-	padding-top: 10px;
-	padding-left: 0px;
+	padding:10px 220px 0;
 }
 
 #aboutUs #au-para2 {
-	/*top: 320px;*/
 	padding: 0px 220px;
 }
 
