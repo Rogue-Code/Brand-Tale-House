@@ -13,9 +13,6 @@
 nav img {
 	margin-left: 100px;
 }
-.navbar {
-	/*height: 150px;*/
-}
 
 .nav-link {
 	font-family: 'Roboto', sans-serif;
@@ -32,12 +29,6 @@ nav img {
 a.dropdown-item.active,
 a.dropdown-item:active {
 	background-color: #00ACEE;	
-}
-
-@media only screen and (max-width: 768px) {
-	/*.navbar li {
-		align-items: center;
-	}*/
 }
 
 .navbar li:nth-child(4) {
@@ -76,28 +67,11 @@ a.dropdown-item:active {
 	height:620px;
 }
 
-@media only screen and (max-width: 768px) {
-	#hero {
-		height: 380px;
-	}
-
-	#hero img {
-		display: none;	
-		/*flex-direction: column;*/
-	}
-
-	#hero h3 {
-		margin-top: 380px;
-	}
-
-}
-
 /********************************About Us*****************************************/
 #aboutUs {
 	display: flex;
 	height: 100vh;
 	margin-top: 165px;
-	/*padding-top: 200px;*/
 	background-color: #D9D9D9;
 }
 
@@ -142,7 +116,12 @@ a.dropdown-item:active {
 	padding: 0px 160px;
 }
 
+#mobile-aboutUs {
+	display: none;
+}
+
  /*Large devices (desktops, 992px and up)*/
+}
 @media (min-width: 992px) { 
 	.aboutUs-content {
 		padding-top: 0px;
@@ -164,45 +143,6 @@ a.dropdown-item:active {
 		padding-top: 70px;
 		padding-left: 100px;
 		padding-right: 100px;
-	}
-}
-
-/* Mobile displays */
-@media only screen and (max-width: 768px) {
-	#aboutUs {
-		height: 450px;
-		width: 100% !important;
-	}
-
-	#aboutUs .aboutUs-inner {
-		display: flex;
-		padding-top: 10px;
-		/*justify-content: center;*/
-	}
-
-	#aboutUs .aboutUs-content {
-		width: 100%;
-		display: flex;
-		margin-left: 0;
-		flex-direction: column;
-	}
-
-	#aboutUs h1 {
-		font-size: 2em;
-		/*padding-top: 30px;*/
-		color: #005A9E;
-	}	
-
-	#aboutUs p {
-		font-size: 0.9em;
-	}
-
-	#aboutUs #au-para1 {
-		padding:0;
-	}
-
-	#aboutUs #au-para2 {
-		padding: 0;
 	}
 }
 
@@ -259,12 +199,6 @@ a.dropdown-item:active {
 
 #channel #row2 {
 	margin-top: 20px;
-}
-
-@media only screen and (max-width: 768px){
-	#channel {
-		height: 2450px;
-	}
 }
 
 /*******************************best-channels***********************************/
@@ -357,36 +291,6 @@ a.dropdown-item:active {
 	padding: 0px 100px;
 }
 
-@media only screen and (max-width: 768px) {
-	#best-channels {
-		height: 2000px;
-	}
-
-	#best-channels #row1 img {
-		border: none;
-		border-right: none;
-	}
-
-	#best-channels #row1 img:nth-child(1) {
-		border: none;
-		border-right: none;
-	}
-
-	#best-channels #row2 img {
-		border: none;
-		border-right: none;
-	}
-
-	#best-channels #row2 img:nth-child(1) {
-	border: none;
-	border-right: none;
-	}
-
-	#best-channels p {
-		padding: 0;
-	}
-}
-
 /*******************************contactUs***************************************/
 #contactUs {
 	display: flex;
@@ -429,22 +333,6 @@ a.dropdown-item:active {
 
 #contactUs #right-col {
 	padding-left: 40px;
-}
-
-@media only screen and (max-width: 768px) {
-	#contactUs #talkUs {
-		flex-direction: column;
-	}
-
-	#contactUs #right-col {
-		padding-left: 0px;
-		padding-top: 100px;
-	}
-
-	#contactUs #left-col-2 img.bth-logo {
-		margin-top: 30px;
-		height: 65px;
-	}
 }
 
 #contactUs #left-col-2 img.bth-logo {
