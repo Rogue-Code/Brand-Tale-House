@@ -14,7 +14,7 @@
 
 	#hero img {
 		top: 43px;
-		left: 0px;
+		left: 60px;
 		width: 280px;
 		height: 400px;
 	}
@@ -50,9 +50,10 @@
 	#aboutUs h1 {
 		font-size: 1.5em;
 		position: absolute;
-		top: 65px;
-		left: 150px;
-		padding: 0 !important;
+		top: 85px;
+		left: 120px;
+		width: 100px;
+		padding:0 !important;
 		margin: 0 !important;
 		color: #005A9E;
 	}	
